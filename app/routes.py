@@ -1,5 +1,5 @@
-from app import app, db
-from app.models import Task
+from backend.flaskr import app, db
+from backend.flaskr.models import Task
 from flask import Flask, flash, redirect, render_template, request
 
 
